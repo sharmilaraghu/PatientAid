@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041EDBCF1A625CEC00ECDA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBCE1A625CEC00ECDA48 /* AppDelegate.swift */; };
+		041EDBD11A625CEC00ECDA48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBD01A625CEC00ECDA48 /* ViewController.swift */; };
+		041EDBD41A625CEC00ECDA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBD21A625CEC00ECDA48 /* Main.storyboard */; };
+		041EDBD61A625CEC00ECDA48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBD51A625CEC00ECDA48 /* Images.xcassets */; };
+		041EDBD91A625CEC00ECDA48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBD71A625CEC00ECDA48 /* LaunchScreen.xib */; };
+		041EDBE51A625CED00ECDA48 /* PatientAidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBE41A625CED00ECDA48 /* PatientAidTests.swift */; };
+		041EDBF01A625D9200ECDA48 /* Envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBEE1A625D9200ECDA48 /* Envelope.png */; };
+		041EDBF11A625D9200ECDA48 /* Swap.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBEF1A625D9200ECDA48 /* Swap.png */; };
+		C42827FD1AC9B197006B03AE /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42827FC1AC9B197006B03AE /* TesseractOCR.framework */; };
+		C42827FF1AC9B1C8006B03AE /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = C42827FE1AC9B1C8006B03AE /* tessdata */; };
+		C42828011AC9B257006B03AE /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C42828001AC9B257006B03AE /* libstdc++.dylib */; };
+		C42828031AC9B261006B03AE /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42828021AC9B261006B03AE /* CoreImage.framework */; };
+		C42828071AC9B466006B03AE /* FakeObjectiveCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C42828061AC9B466006B03AE /* FakeObjectiveCClass.m */; };
+		C428280D1AC9EA85006B03AE /* PrescribedMeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C428280C1AC9EA85006B03AE /* PrescribedMeds.swift */; };
+		C42828111ACA07C9006B03AE /* SetRemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42828101ACA07C9006B03AE /* SetRemindersViewController.swift */; };
+		C44593221AE9CF05003F1FB7 /* DisplayInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44593211AE9CF05003F1FB7 /* DisplayInterfaceController.swift */; };
+		C4DD97681AE996BD00CCBB19 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD97671AE996BD00CCBB19 /* InterfaceController.swift */; };
+		C4DD976A1AE996BD00CCBB19 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD97691AE996BD00CCBB19 /* NotificationController.swift */; };
+		C4DD976C1AE996BD00CCBB19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DD976B1AE996BD00CCBB19 /* Images.xcassets */; };
+		C4DD97701AE996BD00CCBB19 /* PatientAid WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C4DD976F1AE996BD00CCBB19 /* PatientAid WatchKit App.app */; };
+		C4DD97781AE996BD00CCBB19 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DD97761AE996BD00CCBB19 /* Interface.storyboard */; };
+		C4DD977A1AE996BD00CCBB19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DD97791AE996BD00CCBB19 /* Images.xcassets */; };
+		C4DD977D1AE996BD00CCBB19 /* PatientAid WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C4DD97621AE996BD00CCBB19 /* PatientAid WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C4FF30B81AE9B8D60059AE35 /* mzl.mdmktvlo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4FF30B71AE9B8D60059AE35 /* mzl.mdmktvlo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041EDBDF1A625CED00ECDA48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041EDBC11A625CEC00ECDA48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041EDBC81A625CEC00ECDA48;
+			remoteInfo = LoveInASnap;
+		};
+		C4DD97711AE996BD00CCBB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041EDBC11A625CEC00ECDA48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DD976E1AE996BD00CCBB19;
+			remoteInfo = "PatientAid WatchKit App";
+		};
+		C4DD977B1AE996BD00CCBB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041EDBC11A625CEC00ECDA48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DD97611AE996BD00CCBB19;
+			remoteInfo = "PatientAid WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3D562DA1ACB87D300E40A2D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C4DD977D1AE996BD00CCBB19 /* PatientAid WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		041EDBC91A625CEC00ECDA48 /* PatientAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041EDBCD1A625CEC00ECDA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041EDBCE1A625CEC00ECDA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		041EDBD01A625CEC00ECDA48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041EDBD31A625CEC00ECDA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041EDBD51A625CEC00ECDA48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		041EDBD81A625CEC00ECDA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		041EDBDE1A625CED00ECDA48 /* PatientAidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientAidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041EDBE31A625CED00ECDA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041EDBE41A625CED00ECDA48 /* PatientAidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAidTests.swift; sourceTree = "<group>"; };
+		041EDBEE1A625D9200ECDA48 /* Envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Envelope.png; sourceTree = "<group>"; };
+		041EDBEF1A625D9200ECDA48 /* Swap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swap.png; sourceTree = "<group>"; };
+		C42827FC1AC9B197006B03AE /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		C42827FE1AC9B1C8006B03AE /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		C42828001AC9B257006B03AE /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		C42828021AC9B261006B03AE /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		C42828041AC9B465006B03AE /* PatientAid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PatientAid-Bridging-Header.h"; sourceTree = "<group>"; };
+		C42828051AC9B466006B03AE /* FakeObjectiveCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeObjectiveCClass.h; sourceTree = "<group>"; };
+		C42828061AC9B466006B03AE /* FakeObjectiveCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeObjectiveCClass.m; sourceTree = "<group>"; };
+		C428280C1AC9EA85006B03AE /* PrescribedMeds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescribedMeds.swift; sourceTree = "<group>"; };
+		C42828101ACA07C9006B03AE /* SetRemindersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetRemindersViewController.swift; sourceTree = "<group>"; };
+		C44593211AE9CF05003F1FB7 /* DisplayInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayInterfaceController.swift; sourceTree = "<group>"; };
+		C49CDF541AE971EF006AB44F /* PatientAid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PatientAid.entitlements; sourceTree = "<group>"; };
+		C4DD97621AE996BD00CCBB19 /* PatientAid WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PatientAid WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DD97651AE996BD00CCBB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DD97661AE996BD00CCBB19 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C4DD97671AE996BD00CCBB19 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C4DD97691AE996BD00CCBB19 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C4DD976B1AE996BD00CCBB19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4DD976F1AE996BD00CCBB19 /* PatientAid WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PatientAid WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DD97751AE996BD00CCBB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DD97771AE996BD00CCBB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C4DD97791AE996BD00CCBB19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4F810E21AE9B3E100F41BFD /* PatientAid WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PatientAid WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		C4FF30B71AE9B8D60059AE35 /* mzl.mdmktvlo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mzl.mdmktvlo.png; path = "../PatientAid WatchKit App/mzl.mdmktvlo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041EDBC61A625CEC00ECDA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42828031AC9B261006B03AE /* CoreImage.framework in Frameworks */,
+				C42828011AC9B257006B03AE /* libstdc++.dylib in Frameworks */,
+				C42827FD1AC9B197006B03AE /* TesseractOCR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041EDBDB1A625CED00ECDA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DD975F1AE996BD00CCBB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041EDBC01A625CEC00ECDA48 = {
+			isa = PBXGroup;
+			children = (
+				C42828021AC9B261006B03AE /* CoreImage.framework */,
+				C42828001AC9B257006B03AE /* libstdc++.dylib */,
+				041EDBCB1A625CEC00ECDA48 /* PatientAid */,
+				041EDBE11A625CED00ECDA48 /* PatientAidTests */,
+				C4DD97631AE996BD00CCBB19 /* PatientAid WatchKit Extension */,
+				C4DD97731AE996BD00CCBB19 /* PatientAid WatchKit App */,
+				041EDBCA1A625CEC00ECDA48 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		041EDBCA1A625CEC00ECDA48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041EDBC91A625CEC00ECDA48 /* PatientAid.app */,
+				041EDBDE1A625CED00ECDA48 /* PatientAidTests.xctest */,
+				C4DD97621AE996BD00CCBB19 /* PatientAid WatchKit Extension.appex */,
+				C4DD976F1AE996BD00CCBB19 /* PatientAid WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041EDBCB1A625CEC00ECDA48 /* PatientAid */ = {
+			isa = PBXGroup;
+			children = (
+				C49CDF541AE971EF006AB44F /* PatientAid.entitlements */,
+				C42827FC1AC9B197006B03AE /* TesseractOCR.framework */,
+				041EDBCE1A625CEC00ECDA48 /* AppDelegate.swift */,
+				041EDBD01A625CEC00ECDA48 /* ViewController.swift */,
+				041EDBD21A625CEC00ECDA48 /* Main.storyboard */,
+				C42828101ACA07C9006B03AE /* SetRemindersViewController.swift */,
+				C428280C1AC9EA85006B03AE /* PrescribedMeds.swift */,
+				041EDBD51A625CEC00ECDA48 /* Images.xcassets */,
+				041EDBD71A625CEC00ECDA48 /* LaunchScreen.xib */,
+				041EDBCC1A625CEC00ECDA48 /* Supporting Files */,
+				C42828051AC9B466006B03AE /* FakeObjectiveCClass.h */,
+				C42828061AC9B466006B03AE /* FakeObjectiveCClass.m */,
+				C42828041AC9B465006B03AE /* PatientAid-Bridging-Header.h */,
+			);
+			path = PatientAid;
+			sourceTree = "<group>";
+		};
+		041EDBCC1A625CEC00ECDA48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C42827FE1AC9B1C8006B03AE /* tessdata */,
+				041EDBEE1A625D9200ECDA48 /* Envelope.png */,
+				041EDBEF1A625D9200ECDA48 /* Swap.png */,
+				041EDBCD1A625CEC00ECDA48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041EDBE11A625CED00ECDA48 /* PatientAidTests */ = {
+			isa = PBXGroup;
+			children = (
+				041EDBE41A625CED00ECDA48 /* PatientAidTests.swift */,
+				041EDBE21A625CED00ECDA48 /* Supporting Files */,
+			);
+			path = PatientAidTests;
+			sourceTree = "<group>";
+		};
+		041EDBE21A625CED00ECDA48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041EDBE31A625CED00ECDA48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4DD97631AE996BD00CCBB19 /* PatientAid WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4F810E21AE9B3E100F41BFD /* PatientAid WatchKit Extension.entitlements */,
+				C4DD97671AE996BD00CCBB19 /* InterfaceController.swift */,
+				C4DD97691AE996BD00CCBB19 /* NotificationController.swift */,
+				C4DD976B1AE996BD00CCBB19 /* Images.xcassets */,
+				C4FF30B71AE9B8D60059AE35 /* mzl.mdmktvlo.png */,
+				C4DD97641AE996BD00CCBB19 /* Supporting Files */,
+				C44593211AE9CF05003F1FB7 /* DisplayInterfaceController.swift */,
+			);
+			path = "PatientAid WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C4DD97641AE996BD00CCBB19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4DD97651AE996BD00CCBB19 /* Info.plist */,
+				C4DD97661AE996BD00CCBB19 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4DD97731AE996BD00CCBB19 /* PatientAid WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C4DD97761AE996BD00CCBB19 /* Interface.storyboard */,
+				C4DD97791AE996BD00CCBB19 /* Images.xcassets */,
+				C4DD97741AE996BD00CCBB19 /* Supporting Files */,
+			);
+			path = "PatientAid WatchKit App";
+			sourceTree = "<group>";
+		};
+		C4DD97741AE996BD00CCBB19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4DD97751AE996BD00CCBB19 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041EDBC81A625CEC00ECDA48 /* PatientAid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041EDBE81A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "PatientAid" */;
+			buildPhases = (
+				041EDBC51A625CEC00ECDA48 /* Sources */,
+				041EDBC61A625CEC00ECDA48 /* Frameworks */,
+				041EDBC71A625CEC00ECDA48 /* Resources */,
+				A3D562DA1ACB87D300E40A2D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DD977C1AE996BD00CCBB19 /* PBXTargetDependency */,
+			);
+			name = PatientAid;
+			productName = LoveInASnap;
+			productReference = 041EDBC91A625CEC00ECDA48 /* PatientAid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041EDBDD1A625CED00ECDA48 /* PatientAidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041EDBEB1A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "PatientAidTests" */;
+			buildPhases = (
+				041EDBDA1A625CED00ECDA48 /* Sources */,
+				041EDBDB1A625CED00ECDA48 /* Frameworks */,
+				041EDBDC1A625CED00ECDA48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041EDBE01A625CED00ECDA48 /* PBXTargetDependency */,
+			);
+			name = PatientAidTests;
+			productName = LoveInASnapTests;
+			productReference = 041EDBDE1A625CED00ECDA48 /* PatientAidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4DD97611AE996BD00CCBB19 /* PatientAid WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DD97831AE996BE00CCBB19 /* Build configuration list for PBXNativeTarget "PatientAid WatchKit Extension" */;
+			buildPhases = (
+				C4DD975E1AE996BD00CCBB19 /* Sources */,
+				C4DD975F1AE996BD00CCBB19 /* Frameworks */,
+				C4DD97601AE996BD00CCBB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DD97721AE996BD00CCBB19 /* PBXTargetDependency */,
+			);
+			name = "PatientAid WatchKit Extension";
+			productName = "PatientAid WatchKit Extension";
+			productReference = C4DD97621AE996BD00CCBB19 /* PatientAid WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C4DD976E1AE996BD00CCBB19 /* PatientAid WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DD97821AE996BE00CCBB19 /* Build configuration list for PBXNativeTarget "PatientAid WatchKit App" */;
+			buildPhases = (
+				C4DD976D1AE996BD00CCBB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PatientAid WatchKit App";
+			productName = "PatientAid WatchKit App";
+			productReference = C4DD976F1AE996BD00CCBB19 /* PatientAid WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041EDBC11A625CEC00ECDA48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					041EDBC81A625CEC00ECDA48 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 89JRG4TE28;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					041EDBDD1A625CED00ECDA48 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 041EDBC81A625CEC00ECDA48;
+					};
+					C4DD97611AE996BD00CCBB19 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 89JRG4TE28;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					C4DD976E1AE996BD00CCBB19 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 89JRG4TE28;
+					};
+				};
+			};
+			buildConfigurationList = 041EDBC41A625CEC00ECDA48 /* Build configuration list for PBXProject "PatientAid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041EDBC01A625CEC00ECDA48;
+			productRefGroup = 041EDBCA1A625CEC00ECDA48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041EDBC81A625CEC00ECDA48 /* PatientAid */,
+				041EDBDD1A625CED00ECDA48 /* PatientAidTests */,
+				C4DD97611AE996BD00CCBB19 /* PatientAid WatchKit Extension */,
+				C4DD976E1AE996BD00CCBB19 /* PatientAid WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041EDBC71A625CEC00ECDA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EDBD41A625CEC00ECDA48 /* Main.storyboard in Resources */,
+				041EDBF01A625D9200ECDA48 /* Envelope.png in Resources */,
+				041EDBF11A625D9200ECDA48 /* Swap.png in Resources */,
+				041EDBD91A625CEC00ECDA48 /* LaunchScreen.xib in Resources */,
+				041EDBD61A625CEC00ECDA48 /* Images.xcassets in Resources */,
+				C42827FF1AC9B1C8006B03AE /* tessdata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041EDBDC1A625CED00ECDA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DD97601AE996BD00CCBB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DD976C1AE996BD00CCBB19 /* Images.xcassets in Resources */,
+				C4DD97701AE996BD00CCBB19 /* PatientAid WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DD976D1AE996BD00CCBB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DD97781AE996BD00CCBB19 /* Interface.storyboard in Resources */,
+				C4DD977A1AE996BD00CCBB19 /* Images.xcassets in Resources */,
+				C4FF30B81AE9B8D60059AE35 /* mzl.mdmktvlo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041EDBC51A625CEC00ECDA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EDBD11A625CEC00ECDA48 /* ViewController.swift in Sources */,
+				C42828111ACA07C9006B03AE /* SetRemindersViewController.swift in Sources */,
+				C42828071AC9B466006B03AE /* FakeObjectiveCClass.m in Sources */,
+				C428280D1AC9EA85006B03AE /* PrescribedMeds.swift in Sources */,
+				041EDBCF1A625CEC00ECDA48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041EDBDA1A625CED00ECDA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EDBE51A625CED00ECDA48 /* PatientAidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DD975E1AE996BD00CCBB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DD976A1AE996BD00CCBB19 /* NotificationController.swift in Sources */,
+				C44593221AE9CF05003F1FB7 /* DisplayInterfaceController.swift in Sources */,
+				C4DD97681AE996BD00CCBB19 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041EDBE01A625CED00ECDA48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041EDBC81A625CEC00ECDA48 /* PatientAid */;
+			targetProxy = 041EDBDF1A625CED00ECDA48 /* PBXContainerItemProxy */;
+		};
+		C4DD97721AE996BD00CCBB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4DD976E1AE996BD00CCBB19 /* PatientAid WatchKit App */;
+			targetProxy = C4DD97711AE996BD00CCBB19 /* PBXContainerItemProxy */;
+		};
+		C4DD977C1AE996BD00CCBB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4DD97611AE996BD00CCBB19 /* PatientAid WatchKit Extension */;
+			targetProxy = C4DD977B1AE996BD00CCBB19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041EDBD21A625CEC00ECDA48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041EDBD31A625CEC00ECDA48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041EDBD71A625CEC00ECDA48 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041EDBD81A625CEC00ECDA48 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C4DD97761AE996BD00CCBB19 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DD97771AE996BD00CCBB19 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041EDBE61A625CED00ECDA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		041EDBE71A625CED00ECDA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041EDBE91A625CED00ECDA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatientAid/PatientAid.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PatientAid",
+				);
+				INFOPLIST_FILE = PatientAid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-lstdc++";
+				PRODUCT_NAME = PatientAid;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PatientAid/PatientAid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		041EDBEA1A625CED00ECDA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatientAid/PatientAid.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PatientAid",
+				);
+				INFOPLIST_FILE = PatientAid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-lstdc++";
+				PRODUCT_NAME = PatientAid;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PatientAid/PatientAid-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		041EDBEC1A625CED00ECDA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PatientAidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = PatientAidTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientAid.app/PatientAid";
+			};
+			name = Debug;
+		};
+		041EDBED1A625CED00ECDA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PatientAidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = PatientAidTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientAid.app/PatientAid";
+			};
+			name = Release;
+		};
+		C4DD977E1AE996BE00CCBB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PatientAid WatchKit Extension/PatientAid WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PatientAid WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C4DD977F1AE996BE00CCBB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PatientAid WatchKit Extension/PatientAid WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "PatientAid WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C4DD97801AE996BE00CCBB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PatientAid_WatchKit_Extension;
+				INFOPLIST_FILE = "PatientAid WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C4DD97811AE996BE00CCBB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = PatientAid_WatchKit_Extension;
+				INFOPLIST_FILE = "PatientAid WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041EDBC41A625CEC00ECDA48 /* Build configuration list for PBXProject "PatientAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041EDBE61A625CED00ECDA48 /* Debug */,
+				041EDBE71A625CED00ECDA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041EDBE81A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "PatientAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041EDBE91A625CED00ECDA48 /* Debug */,
+				041EDBEA1A625CED00ECDA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041EDBEB1A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "PatientAidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041EDBEC1A625CED00ECDA48 /* Debug */,
+				041EDBED1A625CED00ECDA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DD97821AE996BE00CCBB19 /* Build configuration list for PBXNativeTarget "PatientAid WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DD97801AE996BE00CCBB19 /* Debug */,
+				C4DD97811AE996BE00CCBB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DD97831AE996BE00CCBB19 /* Build configuration list for PBXNativeTarget "PatientAid WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DD977E1AE996BE00CCBB19 /* Debug */,
+				C4DD977F1AE996BE00CCBB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041EDBC11A625CEC00ECDA48 /* Project object */;
+}

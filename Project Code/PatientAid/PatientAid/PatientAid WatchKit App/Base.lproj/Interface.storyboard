@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PatientAid_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" alignment="left" text="PatientAid" textAlignment="center" id="TYu-jC-csX">
+                            <color key="textColor" red="0.39434026073629969" green="0.67613966276393933" blue="0.71335640516767684" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="22"/>
+                        </label>
+                        <imageView width="105" height="99" alignment="center" verticalAlignment="center" image="mzl.mdmktvlo.png" contentMode="redraw" id="Aev-nn-2Kd"/>
+                    </items>
+                    <connections>
+                        <segue destination="dgd-th-cRl" kind="relationship" relationship="nextPage" id="sOB-bb-hJN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-111" y="214"/>
+        </scene>
+        <!--DisplayInterfaceController-->
+        <scene sceneID="zFA-vr-Z8H">
+            <objects>
+                <controller identifier="DisplayInterfaceController" id="dgd-th-cRl" customClass="DisplayInterfaceController" customModule="PatientAid_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Medication" id="3aS-X0-Vwn">
+                            <color key="titleColor" red="0.3943402607" green="0.67613966280000004" blue="0.71335640519999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.90980392160000001" green="0.93333333330000001" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                            <connections>
+                                <action selector="buttonPressed" destination="dgd-th-cRl" id="K1M-k6-hP3"/>
+                            </connections>
+                        </button>
+                        <label alignment="center" textAlignment="center" id="4mg-yg-Vej">
+                            <color key="textColor" red="0.3943402607" green="0.67613966280000004" blue="0.71335640519999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="9"/>
+                        </label>
+                        <label alignment="center" textAlignment="center" id="Zlw-u1-6ee">
+                            <color key="textColor" red="0.3943402607" green="0.67613966280000004" blue="0.71335640519999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="9"/>
+                        </label>
+                        <label alignment="center" id="Txx-xw-VrV">
+                            <color key="textColor" red="0.3943402607" green="0.67613966280000004" blue="0.71335640519999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="9"/>
+                        </label>
+                        <label alignment="center" id="F3k-WY-T8x">
+                            <color key="textColor" red="0.3943402607" green="0.67613966280000004" blue="0.71335640519999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="9"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="Label1" destination="4mg-yg-Vej" id="Wwl-VD-cnS"/>
+                        <outlet property="Label2" destination="Zlw-u1-6ee" id="pfM-ue-Sj4"/>
+                        <outlet property="Label3" destination="Txx-xw-VrV" id="NrZ-cM-PPM"/>
+                        <outlet property="Label4" destination="F3k-WY-T8x" id="Lh6-My-5xc"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="142" y="222"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="726"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="PatientAid_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="456" y="775"/>
+        </scene>
+    </scenes>
+</document>
